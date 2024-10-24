@@ -1,0 +1,5 @@
+albumentations==1.1.0
+Pillow
+tqdm
+deep-sort-realtime
+vision_transformers
