@@ -3,3 +3,4 @@ Pillow
 tqdm
 deep-sort-realtime
 vision_transformers
+wanddb
