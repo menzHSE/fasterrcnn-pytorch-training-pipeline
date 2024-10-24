@@ -166,7 +166,7 @@ def main(args):
             model, coco_model = build_model(num_classes=NUM_CLASSES, coco_model=True)
     # Load weights if path provided.
     if args['weights'] is not None:
-        checkpoint = torch.load(args['weights'], map_location=DEVICE)
+        checkpoint = torch.load(args['weights'], map_location=DEVICE, weights_only=True)
         # If config file is not given, load from model dictionary.
         if data_configs is None:
             data_configs = True
