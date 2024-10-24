@@ -293,7 +293,7 @@ def main(args):
         print('-'*50)
 
     print('TEST PREDICTIONS COMPLETE')
-    cv2.destroyAllWindows()
+    #cv2.destroyAllWindows()
 
     # Save JSON log file.
     if args['log_json']:
