@@ -3,5 +3,5 @@ Pillow
 tqdm
 deep-sort-realtime
 vision_transformers
-wanddb
+wandb
 opencv-python>=4.1.1.26
